@@ -13,7 +13,7 @@ To check instance:
 oracle@localhost$ echo $ORACLE_SID
 
 To login to another instance:
-export ORACLE_SID=npluatp (Instance Name which wants to connect)
+export ORACLE_SID=load1 (Instance Name which wants to connect)
 
 To find instance:
 oracle@localhost$ cat /etc/oratab
