@@ -1,3 +1,4 @@
+To extract AWR Report in Oracle Database 11g:
 1. At first Login into oracle user and login to sqlplus
 $sqlplus / as sysdba
 2.@?/rdbms/admin/awrrpt.sql
