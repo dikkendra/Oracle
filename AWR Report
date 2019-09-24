@@ -1,0 +1,18 @@
+1. At first Login into oracle user and login to sqlplus
+$sqlplus / as sysdba
+2.@?/rdbms/admin/awrrpt.sql
+3. Select the file format such as html
+4. Enter
+5. Select begin time of report
+6. Select end time for report
+7. Enter
+
+
+To check instance:
+oracle@localhost$ echo $ORACLE_SID
+
+To login to another instance:
+export ORACLE_SID=npluatp (Instance Name which wants to connect)
+
+To find instance:
+oracle@localhost$ cat /etc/oratab
