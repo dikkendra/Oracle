@@ -1,0 +1,2 @@
+netstat -ant | grep LISTEN
+sudo lsof -i TCP:8080
